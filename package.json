@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "lucide-react": "^0.469.0",
+    "recharts": "^2.15.0"
+  },
+  "devDependencies": {
+    "@shadcn/ui": "^0.0.4"
+  }
+}
