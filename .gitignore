@@ -1,3 +1,99 @@
+# Dipendenze dei pacchetti
 node_modules/
-.next/
+jspm_packages/
+bower_components/
+
+# File di log
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# File di report diagnostici
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Dati di runtime
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Directory per librerie strumentate generate da jscoverage/JSCover
+lib-cov
+
+# Directory di copertura utilizzate da strumenti come istanbul
+coverage/
+*.lcov
+
+# Cache dei test nyc
+.nyc_output/
+
+# Archiviazione intermedia di Grunt
+.grunt/
+
+# Configurazione di node-waf
+.lock-wscript
+
+# Addon binari compilati
+build/Release/
+
+# Cache di TypeScript
+*.tsbuildinfo
+
+# Directory di cache opzionali
+.npm/
+.eslintcache/
+.stylelintcache/
+
+# Storico opzionale della REPL
+.node_repl_history
+
+# Output di 'npm pack'
+*.tgz
+
+# File di integrità di Yarn
+.yarn-integrity
+
+# File di variabili d'ambiente dotenv
 .env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Output di build di framework e strumenti vari
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+dist/
+out/
+public/
+
+# Directory di Serverless
+.serverless/
+
+# Cache di FuseBox
+.fusebox/
+
+# File locali di DynamoDB
+.dynamodb/
+
+# File di porta di TernJS
+.tern-port
+
+# Versioni di VSCode utilizzate per testare le estensioni
+.vscode-test/
+
+# Cache di Yarn v2
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# File di sistema
+.DS_Store
+Thumbs.db
